@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Rey's additions
+.name-flic-images.py
+.FLIC*

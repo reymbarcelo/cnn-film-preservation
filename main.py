@@ -8,13 +8,10 @@ from model import dncnn
 import os
 import numpy as np
 
-# TODO: get rid of duplication in model.py
-
-# TODO: don't train and test on the same dataset!
-CORRUPTED_TRAIN_FILENAMES = '../scratch_50/noisy/*.png'
-ORIGINAL_TRAIN_FILENAMES = '../scratch_50/original/*.png'
-CORRUPTED_TEST_FILENAMES = '../scratch_50/noisy/*.png'
-ORIGINAL_TEST_FILENAMES = '../scratch_50/original/*.png'
+CORRUPTED_TRAIN_FILENAMES = 'train/scratch_50/noisy/*.png'
+ORIGINAL_TRAIN_FILENAMES = 'train/scratch_50/original/*.png'
+CORRUPTED_TEST_FILENAMES = 'test/scratch_50/noisy/*.png'
+ORIGINAL_TEST_FILENAMES = 'test/scratch_50/original/*.png'
 
 CHECKPOINT_DIR = './checkpoint'
 DENOISED_DIR = '../old_data/denoised'

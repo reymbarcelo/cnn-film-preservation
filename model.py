@@ -6,13 +6,11 @@ import random
 import os
 import cv2
 
-# TODO: get rid of duplication in main.py
 
-# TODO: don't train and test on the same dataset!
-CORRUPTED_TRAIN_FILENAMES = '../scratch_50/noisy/*.png'
-ORIGINAL_TRAIN_FILENAMES = '../scratch_50/original/*.png'
-CORRUPTED_TEST_FILENAMES = '../scratch_50/noisy/*.png'
-ORIGINAL_TEST_FILENAMES = '../scratch_50/original/*.png'
+CORRUPTED_TRAIN_FILENAMES = 'train/scratch_50/noisy/*.png'
+ORIGINAL_TRAIN_FILENAMES = 'train/scratch_50/original/*.png'
+CORRUPTED_TEST_FILENAMES = 'test/scratch_50/noisy/*.png'
+ORIGINAL_TEST_FILENAMES = 'test/scratch_50/original/*.png'
 
 # TODO: make name simpler
 ORIGINAL_TRAIN_FILENAMES_LIST = glob(ORIGINAL_TRAIN_FILENAMES)
